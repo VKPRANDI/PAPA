@@ -9,6 +9,6 @@ build:
       - pip install python-dateutil
   tests:
     override:
-      - chmod +x RAJ || true
+      - chmod +x bgmi || true
        # Prevent failure if file doesn't exist
-      - python3 r.py
+      - python3 golem.py
